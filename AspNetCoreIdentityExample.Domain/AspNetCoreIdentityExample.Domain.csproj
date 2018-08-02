@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Entities\Client\**" />
+    <Compile Remove="Entities\Store\**" />
+    <EmbeddedResource Remove="Entities\Client\**" />
+    <EmbeddedResource Remove="Entities\Store\**" />
+    <None Remove="Entities\Client\**" />
+    <None Remove="Entities\Store\**" />
+  </ItemGroup>
+
+</Project>
